@@ -1,0 +1,36 @@
+/*.main {*/
+/*    clear: both;*/
+/*    text-align: center;*/
+/*}*/
+html {
+    background-image: url("../img/bg_tree.png");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #daab71;
+}
+body {
+    /*background-color: #daab71;*/
+    background-color: rgba(218,171,113,0.84);
+    font-family: 'Oswald', sans-serif;
+}
+a:link {
+    color: saddlebrown;
+}
+a:visited {
+    color: darkgreen;
+}
+a:hover {
+    color: #1c433f;
+}
+a:active {
+    background-color: #886619;
+}
+ul {
+    font-size: 90%;
+    list-style: circle;
+}
+hr {
+    border: 1px solid saddlebrown;
+}
