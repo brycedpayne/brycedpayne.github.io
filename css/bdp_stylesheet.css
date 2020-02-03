@@ -1,4 +1,68 @@
-.my-brand {
+* {
+    --color1: #06AED5;
+    --color2: #086788;
+    --color3: #F0C808;
+    --color4: #FFF1D0;
+    --color5: #DD1C1A;
+}
+.background_img {
+    display: flex;
+    position: sticky;
+    width: 100%;
+    z-index: -1;
+    bottom: auto;
+}
+body {
+    background-color: rgba(255,241,208,.8);
+}
+
+.navbar {
+    background-color: var(--color2) !important;
+}
+
+#my-brand {
     font-family: 'Pacifico', cursive;
     font-size: 1.75em;
+    color: var(--color3);
+}
+strong {
+    color: var(--color5);
+}
+html {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    /*background-attachment: fixed;*/
+    /*position: sticky;*/
+    background-color: #daab71;
+}
+.parallax {
+    /*set bg img*/
+    background-image:  url("../img/Santa Elena Canyon.jpeg");
+    /*set specific height*/
+    min-height: 700px;
+    /*create parallax effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgimg-1 {
+    background-image: url("../img/Santa Elena Canyon.jpeg");
+    min-height: 100%;
+}
+bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content {
+    color: #777;
+    background-color:white;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
 }
