@@ -18,7 +18,7 @@
 
 <!--***********************************************   start navbar    ************************************************-->
 <a id="top"></a>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" id="my-brand" href="#">Bryce D. Payne</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,16 +27,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Background</a>
+                <a class="nav-link" href="#background">Background</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Additional Information</a>
+                <a class="nav-link" href="#info">Additional Information</a>
             </li>
         </ul>
     </div>
@@ -45,13 +45,18 @@
 
 
 <!--************************************************   start main    *************************************************-->
+
+<!--parallax img 1-->
 <div class="bgimg-1">
-    <div class="caption">
+    <div class="caption text-center">
         <span class="border text-center">scroll down</span>
     </div>
 </div>
-<div class="content">
-    <h3 style="text-align:center;">Parallax Demo</h3>
+<!--end parallax img 1-->
+
+<!--scrolling content-->
+<div class="content text-center" id="home">
+    <h3>Welcome!</h3>
     <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the
         foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed
         posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit
@@ -61,34 +66,59 @@
         at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis
         ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor
         placerat leo.</p>
+    <div class="rtt text-center">
+        <a href="#top">Top</a>
+    </div>
 </div>
-<div class="container">
+<!--end scrolling content-->
+
+<!--parallax img 2-->
+<div class="bgimg-2">
+    <div class="caption text-center my-auto">
+        <span class="border text-center">scroll down</span>
+    </div>
+</div>
+<!--end parallax img 2-->
+
+<!--scrolling content-->
+<div class="container content" id="background">
 
     <div class="text-center">
         <h4>Hello World! You have arrived at the website of Full Stack Web Developer</h4>
         <h4><strong> Bryce D. Payne</strong></h4>
         <br>
-        <p>Due to unusually high volume, we are currently under construction. Please check back soon.</p>
         <a href="Bryce D Payne Resume.pdf">My Resume</a>
+        <p>Due to unusually high volume, we are currently under construction. Please check back soon.</p>
+        <div class="rtt text-center">
+            <a href="#top">Top</a>
+        </div>
     </div>
 </div>
+<!--end scrolling content-->
 
-<div class="bgimg-2">
+<!--parallax img 3-->
+<div class="bgimg-3">
     <div class="caption">
-        <span class="border text-center">scroll down more</span>
+        <span class="border text-center">scroll down</span>
     </div>
 </div>
-<div style="position:relative;">
-    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-        <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-    </div>
-</div>
+<!--end parallax img 3-->
 
-<div>
-    <a href="#top">Return to top</a>
+<!--footer-->
+<div class="content">
+    <div>
+        <div class="rtt text-center">
+            <a href="#top">Return to top</a>
+            <p>&copy; 2020 BryceDPayne.com</p>
+        </div>
+    </div>
 </div>
+<!--end footer-->
 
 <!--************************************************    end main     *************************************************-->
+
+
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

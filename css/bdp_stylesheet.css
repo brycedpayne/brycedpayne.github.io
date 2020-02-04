@@ -5,19 +5,13 @@
     --color4: #FFF1D0;
     --color5: #DD1C1A;
 }
-.background_img {
-    display: flex;
-    position: sticky;
-    width: 100%;
-    z-index: -1;
-    bottom: auto;
-}
 body {
-    background-color: rgba(255,241,208,.8);
+    background-color: var(--color4);
 }
 
 .navbar {
     background-color: var(--color2) !important;
+    border-bottom: 1px white solid;
 }
 
 #my-brand {
@@ -28,28 +22,45 @@ body {
 strong {
     color: var(--color5);
 }
-html {
-    background-size: 100%;
-    background-repeat: no-repeat;
-    /*background-position: center;*/
-    /*background-attachment: fixed;*/
-    /*position: sticky;*/
-    background-color: #daab71;
+.caption {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
 }
-.parallax {
-    /*set bg img*/
-    background-image:  url("../img/Santa Elena Canyon.jpeg");
-    /*set specific height*/
-    min-height: 700px;
-    /*create parallax effect*/
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.caption span.border {
+    /*background: #282E34;*/
+    background: var(--color1);
+    color: var(--color4);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.border {
+    border: none;
 }
 .bgimg-1 {
-    background-image: url("../img/Santa Elena Canyon.jpeg");
-    min-height: 100%;
+    background: url("../img/Santa Elena Canyon.jpeg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 475px;
+    opacity: .6;
+}
+.bgimg-2 {
+    background: url("../img/IMG_3293.JPG") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 475px;
+    opacity: .6;
+}
+.bgimg-3 {
+    background: url("../img/Eye of the needle.JPG") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 475px;
+    opacity: .6;
 }
 bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
@@ -61,8 +72,15 @@ bgimg-1, .bgimg-2, .bgimg-3 {
 }
 .content {
     color: #777;
-    background-color:white;
-    text-align:center;
+    background-color: var(--color4);
+    /*text-align:center;*/
     padding:50px 80px;
-    text-align: justify;
+    /*text-align: justify;*/
+    /*margin-top: 25px;*/
+}
+html {
+    scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
 }
