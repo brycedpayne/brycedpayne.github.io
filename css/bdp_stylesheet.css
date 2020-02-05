@@ -35,11 +35,18 @@ strong {
     background: var(--color1);
     color: var(--color4);
     padding: 18px;
-    font-size: 25px;
+    font-size: 17px;
     letter-spacing: 10px;
 }
-.border {
-    border: none;
+@media screen and (min-width:576px) {
+    .caption span.border {
+        /*background: #282E34;*/
+        background: var(--color1);
+        color: var(--color4);
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+    }
 }
 .bgimg-1 {
     background: url("../img/Santa Elena Canyon.jpeg") no-repeat center;
@@ -49,7 +56,7 @@ strong {
     opacity: .6;
 }
 .bgimg-2 {
-    background: url("../img/IMG_3293.JPG") no-repeat center;
+    background: url("../img/Guadalupe Mountian.jpeg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     min-height: 475px;
@@ -85,6 +92,16 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 a:hover {
-    transition-duration: .2s;
-    font-size: 1.1em;
+    color: #999999;
+    background: var(--color4);
+    text-decoration: none;
 }
+a {
+    color: var(--color4);
+}
+.btn:hover {
+    color: #999999;
+    background: var(--color4);
+    text-decoration: none;
+}
+
