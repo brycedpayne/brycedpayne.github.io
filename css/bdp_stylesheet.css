@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 a:hover {
-    color: #999999;
+    color: #6c757d;
     background: var(--color4);
     text-decoration: none;
 }
@@ -104,4 +104,13 @@ a {
     background: var(--color4);
     text-decoration: none;
 }
+a.socMedLink {
+    color: #6c757d;
+    font-size: 1.5em;
+}
+a.socMedLink:hover {
+    color: #777777;
+}
+
+
 
