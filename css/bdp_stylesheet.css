@@ -109,8 +109,16 @@ a.socMedLink {
     font-size: 1.5em;
 }
 a.socMedLink:hover {
-    color: #777777;
+    color: var(--color3);
+    font-size: 1.3em;
+    /*background-color: var(--color5);*/
 }
+
+.btn {
+    color: var(--color3);
+}
+
+
 
 
 

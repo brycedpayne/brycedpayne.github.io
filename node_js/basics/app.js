@@ -1,5 +1,8 @@
-var http = require('http');
-var module1 = require('./module1')
+'use strict'
+
+const http = require('http');
+const module1 = require('./module1')
+const _ = require('lodash')
 
 function onRequest(request, response) {
     response.writeHead(200, {'Content-Type': 'test/plain'});
@@ -8,5 +11,5 @@ function onRequest(request, response) {
     response.end();
 }
 
-http.createServer(onRequestlisten(8000);
+http.createServer(onRequest).listen(8000);
 

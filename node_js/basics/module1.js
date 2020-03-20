@@ -5,4 +5,4 @@ function myFunction(){
 var myString = 'String';
 
 module.exports.myFunction = myFunction;
-module.exports.myString = myString;
+// module.exports.myString = myString;
